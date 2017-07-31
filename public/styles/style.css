@@ -1,0 +1,279 @@
+
+body {
+  min-height: 100vh;
+  display: flex;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.4em;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color:#eeeeee;
+}
+
+.todo-container {
+  display:flex;
+  flex-direction: column-reverse;
+  justify-content:center;
+  margin-left:200px;
+}
+
+
+nav {
+  background-color:black;
+  display:flex;
+  justify-content: right;
+}
+
+nav li{
+  display: inline-flex;
+  padding:15px;
+  margin-right:20px;
+}
+
+nav a{
+  text-decoration: none;
+    color:white;
+}
+
+nav a:active{
+ color:blue;
+}
+
+h1{
+  font-size: 58px;
+  margin-bottom: 70px;
+}
+
+.homelinks {
+ margin-top:50px;
+ margin-left:-400px;
+}
+
+.firstlink {
+  padding:10px;
+  border:2px solid black;
+  text-decoration: none;
+  color:black;
+  font-family: helvetica;
+  margin-right:20px;
+}
+
+.secondlink {
+  padding:10px;
+  border:2px solid black;
+  text-decoration: none;
+  color:black;
+  font-family: helvetica;
+}
+
+.firstlink:hover {
+  padding:10px;
+  background:black;
+  border:2px solid black;
+  text-decoration: none;
+  color:white;
+  font-family: helvetica;
+}
+
+.secondlink:hover {
+  padding:10px;
+  background:black;
+  border:2px solid black;
+  text-decoration: none;
+  color:white;
+  font-family: helvetica;
+}
+
+footer{
+  color:white;
+   background-color:black;
+   text-align: center;
+   height:50px;
+}
+
+
+h2{
+  font-size:36px;
+  margin-bottom:20px;
+  width:600px;
+  height:40px;
+  background-color:#efefef;
+  padding:20px 30px 10px 30px;
+}
+
+.linktoadd
+{
+  color:black;
+  border: 2px solid black;
+  text-decoration: none;
+  margin-bottom:50px;
+  padding:10px;
+  width:140px;
+  margin-top:50px;
+}
+
+.linktoadd:hover{
+  background:black;
+  color:white;
+}
+
+.todo{
+  width:600px;
+}
+
+h4{
+  float:right;
+  font-size:26px;
+  margin-top:-70px;
+}
+
+h3 {
+  margin-top:30px;
+  margin-left:30px;
+  font-size:22px;
+}
+
+.todo h3 {
+  text-transform: uppercase;
+}
+
+.links{
+  float:right;
+   display:flex;
+  flex-direction: row;
+  margin-top:-30px;
+  margin-bottom:100px;
+}
+
+input[type="submit"] {
+  float:right;
+  background:black;
+   color:white;
+   padding:5px 10px;
+   font-size:18px;
+   border:2px solid black;
+   margin-left:10px;
+}
+
+.linkto {
+  text-decoration: none;
+  padding:5px 10px;
+  background:black;
+   color:white;
+   width:35px;
+   margin-left:10px;
+   height:25px;
+}
+
+.todo-add h1{
+  margin-top:60px;
+  margin-left:150px;
+}
+
+h5{
+  font-size:22px;
+  margin-bottom:10px;
+}
+
+input[type="text"]{
+   padding:10px;
+   font-size:18px;
+   width:300px;
+}
+
+input[type="password"]{
+   padding:10px;
+   font-size:18px;
+   width:300px;
+}
+
+input[type="email"]{
+   padding:10px;
+   font-size:18px;
+   width:300px;
+}
+
+#title{
+  float:left;
+   margin-left:220px;
+   margin-right:100px;
+}
+
+#description input[type="text"]{
+  width:700px;
+  height:200px
+}
+
+#description{
+  margin-top:30px;
+  margin-left:220px;
+  margin-bottom:30px;
+}
+
+.todoForm input[type="submit"] {
+  margin-right:315px;
+  margin-bottom:50px;
+}
+
+.todoSingle h1{
+  margin-top:70px;
+}
+
+.links input[type="submit"] {
+  margin-right:315px;
+  margin-left:20px;
+}
+
+.links {
+margin-bottom:50px;
+  margin-top:40px;
+  display:flex;
+  flex: 1;
+} 
+
+.links a{
+  background:black;
+  color:white;
+  text-decoration: none;
+  padding:5px 12px 5px 12px;
+}
+
+.linkback a{
+  color:black;
+  text-decoration: none;
+ margin-left:200px;
+}
+
+.linkback {
+ margin-bottom:150px;
+}
+
+.todo-login {
+  display:inline-flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.todo-register{
+  width:500px;
+  margin: 0auto;
+  display:flex;
+  flex:1;
+  margin-left:450px;
+  margin-top:100px;
+}
+
+.todo-register input[type="submit"] {
+  margin-right:310px;
+  margin-bottom:50px;
+  margin-top:20px;
+}

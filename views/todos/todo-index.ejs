@@ -1,0 +1,30 @@
+<% include ../partials/boilerplate %>
+
+<div class ='hero'>
+</div>
+
+<div class ='todo-container'>
+
+    <% for (let todo of data) { %>
+        <div class='todo'>
+            <h2><%= todo.title %></h2>
+            <h4><%= todo.status %></h4>
+            <h3><%= todo.category %></h3>
+
+        <div class="links">
+            <a class='linkto' href='/todos/<%= todo.id %>'>Info</a>
+            <a class='linkto' href='/todos/todo-single-edit'>Edit</a>
+            <form method='POST' action='/todos/<%= todo.id %>?_method=DELETE'>
+                <input type='submit' value='Delete it!' />
+            </form>
+        </div>
+
+        </div>
+   <% } %>
+
+    <a class='linktoadd' href='/todos/add'>Add New To Do!</a>
+
+</div>
+
+
+<% include ../partials/end %>

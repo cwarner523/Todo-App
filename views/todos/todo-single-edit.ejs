@@ -1,0 +1,15 @@
+<% include ../partials/boilerplate %>
+
+<form method='POST' action='/todos/<%= data.id %>/edit?_method=PUT'>
+    <input name='title' type='text' value='<%= data.title %>' />
+    <input name='category' type='text' value='<%= data.caregory %>' />
+    <input name='description' type='text' value='<%= data.description %>' />
+    <input name='To Do' type="checkbox" value="<%= data.status %>">To Do
+<br>
+    <input name='Done' type="checkbox" value="<%= data.status %>">Done
+<br>
+    <input type='submit' value='Edit it!' />
+</form>
+
+
+<% include ../partials/end %>
